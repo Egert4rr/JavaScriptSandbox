@@ -13,16 +13,14 @@
     border: 1px solid black;
     border-radius: 10px;
     margin: 5rem auto;
-    height: 600px;
+    height: 1000px;
     overflow: hidden;
-    width: 75%;
+    width: 59%;
 }
 
-.box {
-    align-items: center;
-    /*background-color: deeppink;*/
-    display: flex;
-    height: 100%;
-    justify-content: center;
+img {
     width: 100%;
+    height: 1000px;
+    object-fit: contain;
+    
 }

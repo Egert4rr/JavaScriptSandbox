@@ -14,22 +14,15 @@ function UpdateRndPrevVal(rnd) {
 }
 function changeColor() {
     //console.log("hello from changecolor")
-
-
     let rnd = Math.floor(Math.random()* colors.length);
 
-
-    
-    
     if (rnd === rndPrevVal) {
         console.log(rnd);
         changeColor();
-
     }
     else {
         mybox.style.backgroundColor = colors[rnd];
         UpdateRndPrevVal(rnd);
     }
-    
-    
 }
+
